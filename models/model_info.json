@@ -1,0 +1,16 @@
+{
+  "project": "ReviewRadar",
+  "task": "3-class sentiment classification",
+  "classes": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "embedding_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "random_seed": 42,
+  "artifacts": {
+    "tfidf_pipeline": "tfidf_pipeline.joblib",
+    "embedding_classifier": "embedding_classifier.joblib"
+  }
+}

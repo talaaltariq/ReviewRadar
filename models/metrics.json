@@ -1,0 +1,46 @@
+{
+  "dataset_statistics": {
+    "amazon_raw_inspected": 100000,
+    "amazon_usable": 97499,
+    "yelp_raw_inspected": 100000,
+    "yelp_usable": 77055,
+    "total_usable_reviews": 174554,
+    "train_samples_80pct": 139643,
+    "test_samples_20pct": 34911
+  },
+  "sentiment_distribution": {
+    "combined": {
+      "Positive": 89084,
+      "Negative": 57213,
+      "Neutral": 28257
+    },
+    "train": {
+      "Positive": 71267,
+      "Negative": 45770,
+      "Neutral": 22606
+    },
+    "test": {
+      "Positive": 17817,
+      "Negative": 11443,
+      "Neutral": 5651
+    }
+  },
+  "evaluation_results": {
+    "model_1_tfidf_lr": {
+      "Model": "Model 1: TF-IDF + Logistic Regression",
+      "Accuracy": 0.7756294577640286,
+      "Macro Precision": 0.7255781356534822,
+      "Macro Recall": 0.7419570383430206,
+      "Macro F1": 0.7264409332045384,
+      "Weighted F1": 0.7884492762198286
+    },
+    "model_2_minilm_lr": {
+      "Model": "Model 2: all-MiniLM-L6-v2 + Logistic Regression",
+      "Accuracy": 0.7270487811864456,
+      "Macro Precision": 0.6803419641449627,
+      "Macro Recall": 0.6922526999322453,
+      "Macro F1": 0.6771093249073173,
+      "Weighted F1": 0.7430917170959122
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Drop exported models from Google Colab here:
+# - tfidf_vectorizer.joblib
+# - lr_tfidf_model.joblib
+# - lr_minilm_model.joblib
+
